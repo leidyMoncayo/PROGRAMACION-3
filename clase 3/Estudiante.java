@@ -7,7 +7,7 @@ public class Estudiante{
     private String facultad;
 
     //constructor
-    public estudiante(int id, int cedula, String nombre, String facultad){
+    public Estudiante(int id, int cedula, String nombre, String facultad){
         this.id=id;
         this.cedula=cedula;
         this.nombre = nombre;
