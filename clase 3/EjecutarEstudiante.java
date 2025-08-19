@@ -7,5 +7,7 @@ public class EjecutarEstudiante{
     Estudiante objEst3 = new Estudiante(3,1000999111, "Byron", "ingenieria");
      
      System.out.println(objEst1);
+     //creacion del arreglo de objetos (Estudiantes)
+     Estudiante[] e=new Estudiante[3];
     }
 }
