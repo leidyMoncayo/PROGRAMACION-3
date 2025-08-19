@@ -8,6 +8,10 @@ public class EjecutarEstudiante{
      
      System.out.println(objEst1);
      //creacion del arreglo de objetos (Estudiantes)
-     Estudiante[] e=new Estudiante[3];
-    }
+     Estudiante[] e=new Estudiante[4];
+     e[0]=objEst1; 
+     e[1]=objEst2;
+     e[2]=objEst3;
+     e[3]= new Estudiante(4, 100, "Peter", "Ingenieria");
+    
 }
