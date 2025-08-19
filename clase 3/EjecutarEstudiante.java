@@ -15,3 +15,4 @@ public class EjecutarEstudiante{
      e[3]= new Estudiante(4, 100, "Peter", "Ingenieria");
     
 }
+}
