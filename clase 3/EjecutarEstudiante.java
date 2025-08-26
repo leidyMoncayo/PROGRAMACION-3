@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class EjecutarEstudiante{
     public static void main (String[]args){
 
@@ -14,5 +16,7 @@ public class EjecutarEstudiante{
      e[2]=objEst3;
      e[3]= new Estudiante(4, 100, "Peter", "Ingenieria");
     
+     System.out.println(Arrays.toString(e)); 
+
 }
 }
