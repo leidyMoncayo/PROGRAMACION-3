@@ -12,6 +12,20 @@ public class EjecutarLibro {
     libros [2]= new Libro("bajo el mismo techo", "FLorinda mesa", 1500);
     libros [3]= new Libro("O todos en la cama o todos en el suelo", "Mi Mama", 3000);
     libros [4]= new Libro("Relato de un naufrago", "Gabriel Garcia Marques", 1100);
+    
+    double precioTotal= libros[0].calcularPrecio(libros);
+    System.out.println("EL precio total del los libros es: "+ precioTotal);
     //tarea metodo burbuja
-    }
-}
+    
+    //ordenar forma creciente
+    libros[0].ordenLibrosPrecio(libros);
+    System.out.println("libros ordenados de menor a mayor precio: ");
+        for (int i = 0; i < libros.length; i++) {
+            System.out.println(libros[i]);
+        }
+    
+     }
+   }
+
+
+
