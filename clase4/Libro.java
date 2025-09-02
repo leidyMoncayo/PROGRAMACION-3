@@ -51,7 +51,7 @@ public class Libro {
 
     public static void ordenLibrosPrecio(Libro[] libros) {
 
-        for (int i = 0; i < libros.length - 1; i++) {
+        for (int i = 0; i < libros.length - 1; i++) { //controla el numero de pasadas
             for (int j = 0; j < libros.length - i - 1; j++) {
                 if (libros[j].getPrecio() > libros[j + 1].getPrecio()) {
                     // intercambio de libros
