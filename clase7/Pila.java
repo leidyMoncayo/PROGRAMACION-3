@@ -5,7 +5,7 @@ import java.util.Stack;
 public class Pila {
     public static void main(String[] args) {
 
-        //creacioin de la pila numeros enteros
+        //creacionn de la pila numeros enteros
         Stack<Integer> pila = new Stack<>();
 
         //verificar si la pila esta vacia
@@ -23,7 +23,7 @@ public class Pila {
         //imprimir la pila
         System.out.println(pila);
 
-        //Mostrar elelemnento que esta en el toppe de la pila sin removerlo
+        //Mostrar elemento que esta en el toppe de la pila sin removerlo
         System.out.println("Tope de la pila: " + pila.peek());
 
         //remover el elemneto que esta en el tope de la pila
@@ -42,6 +42,8 @@ public class Pila {
 
         //verificar si la pila esta vacia
         System.out.println(pila.empty());//False
+
+        //llamar al metodo para validar los parentesis
         
     }
 }
