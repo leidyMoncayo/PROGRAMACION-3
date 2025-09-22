@@ -44,6 +44,12 @@ public class Pila {
         System.out.println(pila.empty());//False
 
         //llamar al metodo para validar los parentesis
-        
+        // ...existing code...
+
+        // llamar al metodo para validar los parentesis
+        Ejercicio1 ej = new Ejercicio1();
+        String[] signos = {"(", ")", "(", ")", "(", ")"};
+        boolean parentesisValidos = ej.validarParentesis(signos);
+        System.out.println("¿Paréntesis válidos?: " + parentesisValidos);
     }
 }
