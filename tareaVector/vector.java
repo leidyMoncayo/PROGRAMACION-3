@@ -1,6 +1,7 @@
 package tareaVector;
 
 import java.util.Vector;
+import java.util.Arrays;    
 
 public class vector {
     public static void main(String[] args) {
@@ -62,7 +63,7 @@ public class vector {
         v.insertElementAt(9, 1);
         System.out.println("insertElementAt: " + v);
 
-         // copyInto    : copia los elementos del vector en un arreglo dado
+         // copyInto(array): copia los elementos del vector en un arreglo dado
         Integer[] arr = new Integer[v.size()];
         v.copyInto(arr);
         System.out.println("copyInto: " + Arrays.toString(arr));
