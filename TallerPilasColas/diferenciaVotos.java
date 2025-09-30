@@ -4,12 +4,12 @@ import java.util.*;
 public class diferenciaVotos {
 
     //  Diferencia entre votos
-    public static int votosDiferencia(int postivos, int negativos) {
+    public static int votosDiferencia(int upvotes, int downvotes) {
         Queue<Integer> q = new ArrayDeque<>();
-        for (int i = 0; i < postivos; i++) {
+        for (int i = 0; i < upvotes ; i++) {
             q.offer(1);
         }
-        for (int i = 0; i < negativos; i++) {
+        for (int i = 0; i < downvotes; i++) {
             q.offer(-1);
         }
 
