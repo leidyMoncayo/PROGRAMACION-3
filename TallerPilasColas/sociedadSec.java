@@ -23,7 +23,7 @@ public class sociedadSec {
             }
         }
 
-        // ordenar con burbuja (sin stream)
+        // ordenar con burbuja 
         for (int i = 0; i < letras.size() - 1; i++) {
             for (int j = 0; j < letras.size() - 1 - i; j++) {
                 if (letras.get(j) > letras.get(j + 1)) {
