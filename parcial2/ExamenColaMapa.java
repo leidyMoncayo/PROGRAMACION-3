@@ -30,7 +30,7 @@ public class ExamenColaMapa {
         public void encolar(int x) {
             if (estaLlena())
                 throw new IllegalStateException(" Cola llena");// verifica si la cola esta llena
-            datos[cola] = x;
+            datos[cola] = x;//inserta x en la posicion de la cola
             cola = (cola + 1) % datos.length;// actualiza la posicion de la cola
             tam++;// incrementa el tamaño de la cola
         }
