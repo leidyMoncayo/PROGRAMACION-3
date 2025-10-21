@@ -57,8 +57,14 @@ public class ExamenColaMapa {
             } else if (parentesis == ')') {
                 cola.encolar(-1);// si es un parentesis de cierre encola -1
             }
+
         }
-        return 0;// retorna 0 si la cola esta vacia o si desencola
+            
+             int suma = 0;
+        while (!cola.estaVacia()) {
+        suma += cola.desencolar();
+    }
+        return suma;// retorna la suma de los valores encolados
     }
 
     // (50 pts) Registra intentos por nombre en un mapa .
