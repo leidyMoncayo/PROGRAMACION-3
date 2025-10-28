@@ -70,14 +70,14 @@ public class ExamenColaMapa {
     // (50 pts) Registra intentos por nombre en un mapa .
     public static int registrarIntento(Map<String, Integer> intentos, String nombre) {
         // TODO : incrementar si existe o iniciar en 1 si no existe
-        if (intentos.containsKey(nombre)) {// verifica
+        if (intentos.containsKey(nombre)) {// constainkey Devuelve verdadero si este mapa contiene una asignación para la clave especificada.
             int cont = intentos.get(nombre);
             intentos.put(nombre, cont + 1);
             return cont + 1;
-        } else {// si no esxiste el nombre en el mapa inicia en 1
+        } else {// si no existe el nombre en el mapa inicia en 1
             intentos.put(nombre, 1);
             return 1;// retorna 1 si no existe el nombre en el mapa
-        }
+                    }
 
     }
 
