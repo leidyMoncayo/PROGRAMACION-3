@@ -86,8 +86,8 @@
  
     public static void main(String[] args) {
         ArbolBinario arbol = new ArbolBinario();
-        arbol.insertar(42);
         arbol.insertar(9);
+        arbol.insertar(42);
         arbol.insertar(10);
         arbol.insertar(18);
         arbol.insertar(34);
